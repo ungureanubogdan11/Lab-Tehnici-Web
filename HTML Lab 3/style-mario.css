@@ -1,0 +1,21 @@
+header, main, footer {
+    align-items: center;
+    background-color: #4287f5;
+}
+div{
+    margin:auto;
+}
+
+p, h1, h2, h3, h4, figure, article{
+    text-align: center;
+}
+
+table {
+    margin:auto;
+    background-color:blue;
+    color:white;
+    padding: 2%;
+}
+*{
+    font-family: Comic Sans MS;
+}
