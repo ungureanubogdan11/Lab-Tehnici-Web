@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Formular pentru intrarea în Sistemul Solar</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css" type="text/css">
+      <script type="text/javascript" src="form.js"></script>
+   </head>
+   <body>
+     <h3>FORMULAR PENTRU INTRAREA ÎN SISTEMUL SOLAR</h3>
+      
+     <div id="container"> 
+       <form id = "formular" method = "post" action = "Earth" target = "_self">
+        <fieldset>
+        <legend>Date Personale Intergalactice</legend>
+
+        <div>
+            <label for="nume">Nume Extraterestru:</label>
+            <input type="text" id="nume" name="nume"
+                   minlength="3" maxlength="30">
+        </div>
+
+        <div>
+            <label for="idIntergalactic">ID Unic Intergalactic</label>
+            <input type="text" id="idIntergalactic" name="idIntergalactic"
+                   minlength="8" maxlength="20">
+        </div>
+
+        <div>
+            <label for="dataNasterii">Data Nașterii:</label>
+            <input type="date" id="dataNasterii" name="dataNasterii"
+                   required
+                   min="1800-01-01"
+                   max="2024-05-13">
+        </div>
+
+        <div>
+            <label for="creditSocial">Credit Social Acumulat:</label>
+            <input type="range" id="creditSocial" name="creditSocial"
+                   min="0" max="2000"
+                   required
+                   oninput="creditValue.value = creditSocial.value ">
+            <output for="creditSocial" id="creditValue">1000</output> credite
+        </div>
+
+        <div>
+            <label for="foto">Fotografie:</label>
+            <input type="file" id="foto" name="foto"
+                   accept="image/*">
+        </div>
+
+        <div>
+            <label for="rasa">Rasa Extraterestră:</label>
+            <select id="rasa" name="rasa" required>
+                <option value="" disabled selected>-- Selectează Rasa --</option>
+                <optgroup label="Civilizații Avansate">
+                    <option value="Kryptonian">Kryptonian</option>
+                    <option value="Protoss">Protoss</option>
+                    <option value="Romulan">Romulan</option>
+                </optgroup>
+                <optgroup label="Grupuri/Facțiuni">
+                    <option value="Autobot">Autobot</option>
+                    <option value="Daimons">Daimons</option>
+                    <option value="Goa'uld">Goa'uld</option>
+                    <option value="Mandalorians">Mandalorians</option>
+                    <option value="Tleilaxu">Tleilaxu</option>
+                </optgroup>
+                <optgroup label="Specimene Unice/Neclasificate">
+                    <option value="Deep Ones">Deep Ones</option>
+                    <option value="Experiment">Experiment</option>
+                    <option value="Xenu">Xenu</option>
+                    <option value="Yeti">Yeti</option>
+                </optgroup>
+                <optgroup label="Comercianți & Triburi">
+                    <option value="Hutt">Hutt</option>
+                    <option value="Jawa">Jawa</option>
+                    <option value="Rodian">Rodian</option>
+                    <option value="Vogon">Vogon</option>
+                    <option value="Wookie">Wookie</option>
+                </optgroup>
+                <optgroup label="Altele">
+                    <option value="Martian">Martian</option>
+                    <option value="Zerg">Zerg</option>
+                </optgroup>
+            </select>
+        </div>
+
+    </fieldset>
+    <fieldset>
+    <legend> Date de Contact Intergalactice</legend>
+
+        <div>
+            <label for="galaxia">Galaxia de Origine:</label>
+            <input type="text" id="galaxia" name="galaxia">
+        </div>
+
+        <div>
+            <label for="planeta">Planeta Natală:</label>
+            <input type="text" id="planeta" name="planeta">
+        </div>
+
+        <div>
+            <label for="adresa">Adresă Completă Intergalatică:</label>
+            <textarea id="adresa" name="adresa" rows="5" cols = "30"></textarea>
+        </div>
+
+        <div>
+            <label for="telefon">Număr de Telefon (Intergalatic):</label>
+            <input type="tel" id="telefon" name="telefon">
+        </div>
+
+        <div>
+            <label for="email">Adresa de Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div>
+            <label for="urlWeb">URL Pagină Web Personală:</label>
+            <input type="url" id="urlWeb" name="urlWeb" required>
+        </div>
+
+    </fieldset>
+    <fieldset>
+        <legend> Semnalmente Fizice</legend>
+
+        <div>
+            <label for="inaltime">Înălțime (cm):</label>
+            <input type="number" id="inaltime" name="inaltime"
+                   min="10" max="300">
+        </div>
+
+        <div>
+            <label for="greutate">Greutate (kg):</label>
+            <input type="number" id="greutate" name="greutate"
+                   min="1" max="500" >
+        </div>
+
+        <div>
+            <label for="membre">Număr de Membre:</label>
+            <input type="number" id="membre" name="membre">
+        </div>
+
+        <div>
+            <label for="ochi">Număr de Ochi:</label>
+            <input type="number" id="ochi" name="ochi">
+        </div>
+
+        <div class="color-picker-container">
+            <label for="culoare">Culoarea Predominantă:</label>
+            <input type="color" id="culoare" name="culoare" value="#cccccc">
+        </div>
+
+    </fieldset>
+    <fieldset>
+        <legend>Detalii Vizită pe Pământ</legend>
+
+        <label for="dataSosirii">Data Sosirii:</label>
+        <input type="date" id="dataSosirii" name="dataSosirii" required 
+               min="2024-05-13" max="2034-05-13"><br>
+
+        <label for="oraSosirii">Ora Estimată a Sosirii:</label>
+        <input type="time" id="oraSosirii" name="oraSosirii" required><br>
+
+        <label>Tipul de Ședere:</label><br>
+        <input type="radio" id="temporara" name="tipSedere" value="temporara" required checked>
+        <label for="temporara">Temporară</label><br>
+        <input type="radio" id="permanenta" name="tipSedere" value="permanenta">
+        <label for="permanenta">Permanentă</label><br>
+
+        <label>Scopul Vizitei (Obligatoriu):</label><br>
+        <input type="checkbox" id="invazie" name="scopVizita" value="invazie" checked>
+        <label for="invazie">Invazie</label><br>
+        <input type="checkbox" id="cercetare" name="scopVizita" value="cercetare">
+        <label for="cercetare">Cercetare Științifică</label><br>
+        <input type="checkbox" id="turism" name="scopVizita" value="turism">
+        <label for="turism">Turism</label><br>
+        <input type="checkbox" id="comert" name="scopVizita" value="comert">
+        <label for="comert">Comerț</label><br>
+        <input type="checkbox" id="evacuare" name="scopVizita" value="evacuare">
+        <label for="evacuare">Evacuare Planetară</label><br>
+
+        <label for="alteDetalii">Alte Detalii Vizită:</label>
+        <textarea id="alteDetalii" name="alteDetalii" rows="3"></textarea><br>
+        
+    </fieldset>
+    <button type="submit" id="submitButton">
+        Transmite Datele 
+    </button>
+       </form>
+
+       <div id = "successMessage"></div>
+     </div>
+   </body>
+</html>
