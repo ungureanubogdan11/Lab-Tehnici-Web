@@ -1,0 +1,60 @@
+{
+  "cinemateca": {
+    "film": [
+      {
+        "id": "f001",
+        "titlu": {
+          "limba": "engleza",
+          "valoare": "Inception"
+        },
+        "gen": "SF, Acțiune, Thriller",
+        "regizor": "Christopher Nolan",
+        "an_lansare": 2010,
+        "scenarist": "Christopher Nolan",
+        "producator": "Christopher Nolan, Emma Thomas",
+        "actori": {
+          "actor": [
+            {
+              "rol": "principal",
+              "nume": "Leonardo DiCaprio",
+              "personaj": "Dom Cobb"
+            },
+            {
+              "rol": "secundar",
+              "nume": "Joseph Gordon-Levitt",
+              "personaj": "Arthur"
+            }
+          ]
+        },
+        "scor": 8.8
+      },
+      {
+        "id": "f002",
+        "titlu": {
+          "limba": "coreeana",
+          "valoare": "Gisaengchung"
+        },
+        "gen": "Dramă, Thriller, Comedie neagră",
+        "regizor": "Bong Joon-ho",
+        "an_lansare": 2019,
+        "scenarist": "Bong Joon-ho, Han Jin-won",
+        "producator": "Kwak Sin-ae, Bong Joon-ho",
+        "actori": {
+          "actor": [
+            {
+              "rol": "principal",
+              "nume": "Song Kang-ho",
+              "personaj": "Kim Ki-taek"
+            },
+            {
+              "rol": "principal",
+              "nume": "Choi Woo-shik",
+              "personaj": "Kim Ki-woo"
+            }
+          ]
+        },
+        "scor": 8.5
+      }
+    ]
+  }
+}

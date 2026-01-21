@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinemateca>
+    <film id="f001">
+        <titlu limba="engleza">Inception</titlu>
+        <gen>SF, Acțiune, Thriller</gen>
+        <regizor>Christopher Nolan</regizor>
+        <an_lansare>2010</an_lansare>
+        <scenarist>Christopher Nolan</scenarist>
+        <producator>Christopher Nolan, Emma Thomas</producator>
+        <actori>
+            <actor rol="principal">
+                <nume>Leonardo DiCaprio</nume>
+                <personaj>Dom Cobb</personaj>
+            </actor>
+            <actor rol="secundar">
+                <nume>Joseph Gordon-Levitt</nume>
+                <personaj>Arthur</personaj>
+            </actor>
+        </actori>
+        <scor>8.8</scor>
+    </film>
+    <film id="f002">
+        <titlu limba="coreeana">Gisaengchung</titlu>
+        <gen>Dramă, Thriller, Comedie neagră</gen>
+        <regizor>Bong Joon-ho</regizor>
+        <an_lansare>2019</an_lansare>
+        <scenarist>Bong Joon-ho, Han Jin-won</scenarist>
+        <producator>Kwak Sin-ae, Bong Joon-ho</producator>
+        <actori>
+            <actor rol="principal">
+                <nume>Song Kang-ho</nume>
+                <personaj>Kim Ki-taek</personaj>
+            </actor>
+            <actor rol="principal">
+                <nume>Choi Woo-shik</nume>
+                <personaj>Kim Ki-woo</personaj>
+            </actor>
+        </actori>
+        <scor>8.5</scor>
+    </film>
+</cinemateca>
